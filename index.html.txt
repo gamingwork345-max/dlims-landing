@@ -1,0 +1,232 @@
+!DOCTYPE html
+html lang=en
+head
+meta charset=UTF-8
+titleApply Licence Onlinetitle
+meta name=viewport content=width=device-width, initial-scale=1.0
+
+style
+{
+    margin0;
+    padding0;
+    box-sizingborder-box;
+    font-family Arial, Helvetica, sans-serif;
+}
+
+body{
+    background#ffffff;
+}
+
+ ===== TOP BAR ===== 
+.top-bar{
+    backgroundlinear-gradient(to right,#7aa82b,#2f8f2f);
+    color#fff;
+    padding10px 6%;
+    displayflex;
+    justify-contentspace-between;
+    align-itemscenter;
+    font-size14px;
+}
+
+.top-bar span{
+    font-weightbold;
+}
+
+ ===== HERO ===== 
+.hero{
+    min-heightcalc(100vh - 45px);
+    displayflex;
+    align-itemscenter;
+    justify-contentspace-between;
+    padding60px 8%;
+}
+
+ ===== LEFT ===== 
+.hero-left{
+    width45%;
+}
+
+.hero-left p{
+    color#555;
+    margin-bottom10px;
+}
+
+.hero-left h1{
+    font-size42px;
+    color#1f6f2a;
+    margin-bottom10px;
+}
+
+.hero-left h1 span{
+    color#f4a100;
+}
+
+.apply-btn{
+    displayinline-block;
+    backgroundlinear-gradient(#3fa43f,#1f6f2a);
+    color#fff;
+    text-decorationnone;
+    padding16px 38px;
+    border-radius30px;
+    font-size18px;
+    font-weightbold;
+    box-shadow0 8px 18px rgba(0,0,0,0.25);
+}
+
+ ===== RIGHT ===== 
+.hero-right{
+    positionrelative;
+    width50%;
+    displayflex;
+    justify-contentcenter;
+    align-itemsflex-end;
+}
+
+ ===== UMBRELLA (FIXED) ===== 
+.umbrella{
+    positionabsolute;
+    top-40px;
+    width480px;
+    height260px;
+    backgroundlinear-gradient(#1fa84a,#136c2d);
+    border-radius260px 260px 0 0;
+    z-index1;
+    box-shadow0 12px 25px rgba(0,0,0,0.25);
+}
+
+ Umbrella stick 
+.umbrellaafter{
+    content;
+    positionabsolute;
+    bottom-70px;
+    left50%;
+    transformtranslateX(-50%);
+    width6px;
+    height70px;
+    background#333;
+}
+
+ ===== PHONE ===== 
+.phone{
+    width260px;
+    height520px;
+    background#ffffff;
+    border-radius35px;
+    border10px solid #1f6f2a;
+    z-index2;
+    box-shadow0 20px 35px rgba(0,0,0,0.35);
+    displayflex;
+    align-itemscenter;
+    justify-contentcenter;
+    font-weightbold;
+    color#1f6f2a;
+}
+
+ ===== TAGS ===== 
+.tags{
+    positionabsolute;
+    right-40px;
+    bottom60px;
+}
+
+.tag{
+    background#f2f2f2;
+    padding12px 26px;
+    border-radius30px;
+    margin-bottom14px;
+    box-shadow0 6px 14px rgba(0,0,0,0.2);
+    font-size15px;
+}
+
+.tagbefore{
+    content✔ ;
+    color#1f6f2a;
+    font-weightbold;
+}
+
+ ===== WHATSAPP ===== 
+.whatsapp{
+    positionfixed;
+    bottom20px;
+    right20px;
+    background#25D366;
+    color#fff;
+    text-decorationnone;
+    padding14px 26px;
+    border-radius40px;
+    font-weightbold;
+    box-shadow0 6px 18px rgba(0,0,0,0.35);
+}
+
+ ===== RESPONSIVE ===== 
+@media(max-width900px){
+    .hero{
+        flex-directioncolumn;
+        text-aligncenter;
+    }
+
+    .hero-left,.hero-right{
+        width100%;
+    }
+
+    .hero-right{
+        margin-top60px;
+    }
+
+    .tags{
+        positionstatic;
+        margin-top20px;
+    }
+}
+style
+head
+
+body
+
+!-- TOP BAR --
+div class=top-bar
+    spanALL DLIMS SERVICESspan
+    spanONE WINDOW FOR ALL SERVICESspan
+div
+
+section class=hero
+
+    !-- LEFT --
+    div class=hero-left
+        pAll online driving licence servicesp
+
+        h1
+            One-Windowbr
+            spanApply Licence Onlinespan
+        h1
+
+        a class=apply-btn
+           href=httpsforms.gleFwAzUJ9ZJCaQJXpm8
+           target=_blank
+           APPLY LICENCE
+        a
+    div
+
+    !-- RIGHT --
+    div class=hero-right
+        div class=umbrelladiv
+        div class=phoneDLIMSdiv
+
+        div class=tags
+            div class=tagLearner Licencediv
+            div class=tagRegular Licencediv
+            div class=tagInternational Licencediv
+            div class=tage-Licencediv
+        div
+    div
+
+section
+
+a class=whatsapp
+   href=httpswa.me923211412760
+   target=_blank
+   WhatsApp
+a
+
+body
+html
